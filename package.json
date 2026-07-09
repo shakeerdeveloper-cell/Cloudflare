@@ -1,7 +1,6 @@
 {
-  "name": "ai-trial-room",
+  "name": "scorpion-ai-backend",
   "version": "1.0.0",
-  "description": "Backend for AI Virtual Try-On",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
