@@ -28,7 +28,7 @@ app.post('/generate', async (req, res) => {
       }]
     };
 
-    const googleUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent?key=${process.env.GOOGLE_API_KEY}`;
+    const googleUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${process.env.GOOGLE_API_KEY}`;
     
     const response = await fetch(googleUrl, {
       method: "POST",
